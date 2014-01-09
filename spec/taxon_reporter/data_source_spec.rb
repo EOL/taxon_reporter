@@ -21,22 +21,27 @@ describe TaxonReporter::DataSource do
   end
 
   it ".get_api_response" do
+    stub_request(:get, "http://eol.org/api/ping").to_return(File.new 'spec/webmock/ping')
     expect(TaxonReporter::DataSource.get_api_response("http://eol.org/api/ping")).to_not be_nil
   end
 
   it ".get_api_response with bad URL" do
+    stub_request(:get, "http://this.is.a.bad.url/").to_return(:status => 200, :body => "", :headers => {})
     expect(TaxonReporter::DataSource.get_api_response("http://this.is.a.bad.url")).to be_nil
   end
 
   context "search/Gomphidiaceae" do
     let(:url) { "http://eol.org/api/search/Gomphidiaceae.json?exact=t1" }
     let(:path) { ["results", "id"] }
-
+    let(:result) { File.new 'spec/webmock/search_Gomphidiaceae'}
+    
     it ".get_api_result" do
+      stub_request(:get, "http://eol.org/api/search/Gomphidiaceae.json?exact=t1").to_return(result)
       expect(TaxonReporter::DataSource.get_api_result(url, path)).to eq(Set.new([5955]))
     end
 
     it ".get_api_results" do
+      stub_request(:get, "http://eol.org/api/search/Gomphidiaceae.json?exact=t1").to_return(result)
       expect(TaxonReporter::DataSource.get_api_results(url,
              {"id" => path})).to eq({"id" => Set.new([5955])})
     end
