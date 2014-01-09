@@ -8,4 +8,9 @@ describe TaxonReporter::Report do
     expect(report.names.class).to eq(Set)
     expect(report.names.member?(name)).to be_true
   end
+  
+  it '.records' do
+    expect(report.records.class).to eq(Set)
+    expect(report.records.first.class).to eq(TaxonReporter::Record)
+  end
 end

@@ -1,4 +1,6 @@
 require "taxon_reporter/version"
+require "taxon_reporter/field"
+require "taxon_reporter/record"
 require "taxon_reporter/report"
 
 module TaxonReporter
