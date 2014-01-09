@@ -1,6 +1,6 @@
 # TaxonReporter
 
-Supports collecting data from a variety of biodiversity source about a given taxon
+Supports collecting data from a variety of biodiversity source about a given taxon and its descendants
 
 ## Installation
 
