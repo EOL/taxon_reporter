@@ -31,17 +31,17 @@ describe TaxonReporter::DataSource do
   end
 
   context "search/Gomphidiaceae" do
-    let(:url) { "http://eol.org/api/search/Gomphidiaceae.json?exact=t1" }
+    let(:url) { "http://eol.org/api/search/Gomphidiaceae.json?cache_ttl=86400&exact=t1" }
     let(:path) { ["results", "id"] }
     let(:result) { File.new 'spec/webmock/search_Gomphidiaceae'}
     
     it ".get_api_result" do
-      stub_request(:get, "http://eol.org/api/search/Gomphidiaceae.json?exact=t1").to_return(result)
+      stub_request(:get, url).to_return(result)
       expect(TaxonReporter::DataSource.get_api_result(url, path)).to eq(Set.new([5955]))
     end
 
     it ".get_api_results" do
-      stub_request(:get, "http://eol.org/api/search/Gomphidiaceae.json?exact=t1").to_return(result)
+      stub_request(:get, url).to_return(result)
       expect(TaxonReporter::DataSource.get_api_results(url,
              {"id" => path})).to eq({"id" => Set.new([5955])})
     end

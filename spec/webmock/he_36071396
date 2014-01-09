@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "a6d00cacc6ff94cde35d27cf6c7c86fc"
+X-Request-Id: b570e21651b9bee7de06a5d0cbff9a63
+X-Runtime: 0.162019
+X-Content-Digest: 7fd7608bb100991020396e071ba59c6217f6c8ff
+X-Rack-Cache: stale, valid, store
+X-Cacheable: YES
+Content-Length: 2929
+Accept-Ranges: bytes
+Date: Thu, 09 Jan 2014 03:11:03 GMT
+X-Varnish: 1631491141
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"sourceIdentifier":"10000642","taxonID":36071396,"parentNameUsageID":36065416,"taxonConceptID":5955,"scientificName":"Gomphidiaceae","taxonRank":"Fam.","source":"http://eol.org/pages/5955/hierarchy_entries/36071396/overview","nameAccordingTo":["Index Fungorum"],"vernacularNames":[],"synonyms":[],"ancestors":[{"sourceIdentifier":"10000001","taxonID":35694170,"parentNameUsageID":0,"taxonConceptID":5559,"scientificName":"Fungi","taxonRank":"regn.","source":"http://eol.org/pages/5559/hierarchy_entries/35694170/overview"},{"sourceIdentifier":"10000006","taxonID":35966747,"parentNameUsageID":35694170,"taxonConceptID":5664,"scientificName":"Basidiomycota","taxonRank":"phyl.","source":"http://eol.org/pages/5664/hierarchy_entries/35966747/overview"},{"sourceIdentifier":"10000007","taxonID":35966748,"parentNameUsageID":35966747,"taxonConceptID":2865511,"scientificName":"Agaricomycetes","taxonRank":"cl.","source":"http://eol.org/pages/2865511/hierarchy_entries/35966748/overview"},{"sourceIdentifier":"10000123","taxonID":36065416,"parentNameUsageID":35966748,"taxonConceptID":5674,"scientificName":"Boletales","taxonRank":"ord.","source":"http://eol.org/pages/5674/hierarchy_entries/36065416/overview"}],"children":[{"sourceIdentifier":"17194","taxonID":36071397,"parentNameUsageID":36071396,"taxonConceptID":21561,"scientificName":"Brauniellula A.H. Sm. & Singer 1959","taxonRank":"gen.","source":"http://eol.org/pages/21561/hierarchy_entries/36071397/overview"},{"sourceIdentifier":"17449","taxonID":36071402,"parentNameUsageID":36071396,"taxonConceptID":21510,"scientificName":"Cystogomphus Singer, 1942","taxonRank":"gen.","source":"http://eol.org/pages/21510/hierarchy_entries/36071402/overview"},{"sourceIdentifier":"17689","taxonID":36071404,"parentNameUsageID":36071396,"taxonConceptID":18511188,"scientificName":"Gomphus (Fr.) Weinm. 1826","taxonRank":"gen.","source":"http://eol.org/pages/18511188/hierarchy_entries/36071404/overview"},{"sourceIdentifier":"17299","taxonID":36071405,"parentNameUsageID":36071396,"taxonConceptID":21877,"scientificName":"Chroogomphus (Singer) O.K. Mill. 1964","taxonRank":"gen.","source":"http://eol.org/pages/21877/hierarchy_entries/36071405/overview"},{"sourceIdentifier":"17963","taxonID":36071444,"parentNameUsageID":36071396,"taxonConceptID":6669332,"scientificName":"Leucogomphidius Kotl. & Pouzar 1972","taxonRank":"gen.","source":"http://eol.org/pages/6669332/hierarchy_entries/36071444/overview"},{"sourceIdentifier":"17684","taxonID":36071454,"parentNameUsageID":36071396,"taxonConceptID":16631,"scientificName":"Gomphidius Fr. 1836","taxonRank":"gen.","source":"http://eol.org/pages/16631/hierarchy_entries/36071454/overview"},{"sourceIdentifier":"17685","taxonID":36071536,"parentNameUsageID":36071396,"taxonConceptID":101152,"scientificName":"Gomphogaster O.K. Mill. 1973","taxonRank":"gen.","source":"http://eol.org/pages/101152/hierarchy_entries/36071536/overview"}]}

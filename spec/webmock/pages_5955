@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "90f57ce7a51beb005c449900f8074eb3"
+X-Request-Id: 671b7c43276c2428c74d61cff71f2b09
+X-Runtime: 0.144128
+X-Content-Digest: cdbdec3578b9263fba49dc62216d9c031bbf8c49
+X-Rack-Cache: stale, invalid, store
+X-Cacheable: YES
+Content-Length: 1111
+Accept-Ranges: bytes
+Date: Thu, 09 Jan 2014 02:53:37 GMT
+X-Varnish: 582577495
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"identifier":5955,"scientificName":"Gomphidiaceae","richness_score":46.3578,"synonyms":[],"vernacularNames":[],"references":[],"taxonConcepts":[{"identifier":52783721,"scientificName":"Gomphidiaceae","nameAccordingTo":"Species 2000 & ITIS Catalogue of Life: April 2013","canonicalForm":"Gomphidiaceae","sourceIdentfier":"13024521","taxonRank":"Family"},{"identifier":46608107,"scientificName":"Gomphidiaceae","nameAccordingTo":"Integrated Taxonomic Information System (ITIS)","canonicalForm":"Gomphidiaceae","sourceIdentfier":"623905","taxonRank":"Family"},{"identifier":43128104,"scientificName":"Gomphidiaceae Maire ex J\u00fclich","nameAccordingTo":"GBIF Nub Taxonomy","canonicalForm":"Gomphidiaceae","sourceIdentfier":"4192","taxonRank":"Family"},{"identifier":51040676,"scientificName":"Gomphidiaceae","nameAccordingTo":"NCBI Taxonomy","canonicalForm":"Gomphidiaceae","sourceIdentfier":"5389","taxonRank":"Family"},{"identifier":36071396,"scientificName":"Gomphidiaceae","nameAccordingTo":"Index Fungorum","canonicalForm":"Gomphidiaceae","sourceIdentfier":"10000642","taxonRank":"Fam."}],"dataObjects":[]}
