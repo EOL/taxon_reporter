@@ -1,3 +1,6 @@
+require 'coveralls'
+Coveralls.wear!
+
 require 'taxon_reporter'
 
 require 'webmock/rspec'
