@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "cb36b4f1b67c594d6541df120be1c9b0"
+X-Request-Id: 6066f4cc66e6f4135e796bee24284dda
+X-Runtime: 0.095386
+X-Content-Digest: 7480c995bfdc14bc7e2095419c3dc562bf10071f
+X-Rack-Cache: miss, store
+X-Cacheable: YES
+Content-Length: 369
+Accept-Ranges: bytes
+Date: Thu, 23 Jan 2014 04:03:51 GMT
+X-Varnish: 736053142
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"totalResults":1,"startIndex":1,"itemsPerPage":30,"results":[{"id":14134,"title":"Panthera","link":"http://eol.org/14134?action=overview&controller=taxa","content":"Panthera; Panthera Oken, 1816."}],"first":"http://eol.org/api/search/Panthera.json?page=1","self":"http://eol.org/api/search/Panthera.json?page=1","last":"http://eol.org/api/search/Panthera.json?page=1"}

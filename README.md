@@ -78,31 +78,20 @@ To get a TaxonReporter::Report about a taxon:
 
     report = TaxonReporter.report("Panthera")
 
-To get a Set of associated taxon names (Strings):
+A Report is a set of Taxons.
+Report#fields
+Report#values(field)
 
-    names = report.names
+A Taxon is a set of Records.
+Taxon#fields
+Taxon#values(field)
 
-To get all the TaxonReporter.Records of a report as a Set:
+A Record is a Field and a value (String).
 
-    records = report.records
+A Field is a DataSource and a name (String)
 
-To get all available fields (Set of TaxonReporter.Fields) for a report:
-
-    fields = report.fields
-
-To get the value for a field (TaxonReporter.Field) from a record:
-
-    value = record[field]
-
-### Extensions for Additional Sources
-
-To get the source (String) of a TaxonReporter.Fields:
-
-    source = field.source
-
-To get the name (String) of a TaxonReporter.Fields without the source:
-
-    name = field.name
+A DataSource is a name (String), and a url (String)
+DataSource#records(name)
 
 ### Useful Additions
 
@@ -138,11 +127,6 @@ To get all available fields (Array of TaxonReporter.Fields) for a record:
 
     fields = record.fields
 
-## Planned Objects
-TaxonReporter.DataSource,
-TaxonReporter.Record,
-TaxonReporter.Field,
-
 ## Planned Sources
 
 EOL,
@@ -152,11 +136,3 @@ Index Fungorum,
 MycoBank,
 Mushroom Observer,
 MycoPortal
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request

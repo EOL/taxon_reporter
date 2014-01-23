@@ -1,13 +1,52 @@
 require 'set'
 
 module TaxonReporter
-  require 'set'
 
   class EolDataSource < DataSource
-    def self.report_type; return self.to_s; end
+    
+    @@fields = {}
+    
+    def self.taxons_from_name(name)
+      result = []
+      ids = self.get_eol_ids_from_name(name)
+      ids.each do |id|
+        result += self.taxons_from_id(id)
+      end
+      result
+    end
 
-    def self.get_eol_ids_from_name(name)
+    def self.get_eol_ids_from_name(name) # Set of ids
       get_api_result(search_url(name), ["results", "id"])
+    end
+
+    def self.search_url(name); "http://eol.org/api/search/#{URI::escape(name)}.json?exact=1&cache_ttl=86400"; end
+    
+    def self.taxons_from_id(id)
+      taxon = TaxonReporter::Taxon.new(self.records(id))
+      # children = taxon.values(@@fields["children"])
+      [taxon]
+    end
+    
+    def self.records(id)
+      result = []
+      add_children(get_api_results(pages_url(id), PAGES_DATA)).each do |k, v|
+        result.push(TaxonReporter::Record.new(add_field(k), v))
+      end
+      result
+    end
+
+    def self.add_children(results)
+      if results
+        children = eol_children(filter_hes(results["he_ids"]))
+        results["children"] = children if children.length > 0
+        results
+      else
+        []
+      end
+    end
+    
+    def self.pages_url(id)
+      "http://eol.org/api/pages/#{id}.json?images=0&videos=0&sounds=0&maps=0&text=0&iucn=false&details=false&common_names=false&synonyms=false&references=false&cache_ttl=86400"
     end
 
     PAGES_DATA = {
@@ -17,7 +56,14 @@ module TaxonReporter
       "scientificName" => ["scientificName"],
       "he_ids" => ["taxonConcepts", ["identifier", "nameAccordingTo"]]
     }
+    
+    def self.add_field(field_name)
+      @@fields[field_name] = TaxonReporter::Field.new(DATA_SOURCE_NAME, field_name) unless @@fields.member?(field_name)
+      @@fields[field_name]
+    end
 
+    DATA_SOURCE_NAME = "EOL"
+    
     def self.data(id)
       result = get_api_results(pages_url(id), PAGES_DATA)
       if result
@@ -51,12 +97,6 @@ module TaxonReporter
         end
       end
       result.sort
-    end
-
-    def self.search_url(name); "http://eol.org/api/search/#{URI::escape(name)}.json?exact=1&cache_ttl=86400"; end
-
-    def self.pages_url(id)
-      "http://eol.org/api/pages/#{id}.json?images=0&videos=0&sounds=0&maps=0&text=0&iucn=false&details=false&common_names=false&synonyms=false&references=false&cache_ttl=86400"
     end
 
     def self.hierarchy_entries_url(id); "http://eol.org/api/hierarchy_entries/#{id}.json?common_names=false&synonyms=false&cache_ttl=86400"; end

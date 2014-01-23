@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "61e909a197bc56e7ea834880a8ba0aaa"
+X-Request-Id: 038b6c84623e217c79a61d30f20ca5e2
+X-Runtime: 0.129578
+X-Content-Digest: ad96aa5934c5960256b59a70638939c1b435142c
+X-Rack-Cache: miss, store
+X-Cacheable: YES
+Content-Length: 355
+Accept-Ranges: bytes
+Date: Thu, 23 Jan 2014 05:04:02 GMT
+X-Varnish: 736158155
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"sourceIdentifier":"urn:paleodb:tn41066","taxonID":49226231,"parentNameUsageID":49226152,"taxonConceptID":14134,"scientificName":"Panthera Oken, 1816.","taxonRank":"Genus","source":"http://eol.org/pages/14134/hierarchy_entries/49226231/overview","nameAccordingTo":["Paleobiology Database"],"vernacularNames":[],"synonyms":[],"ancestors":[],"children":[]}

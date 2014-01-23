@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "73672d3cbd3297b0d6aa4e52c552da10"
+X-Request-Id: 5a02fe3706558ef2002a08a2d1509b3a
+X-Runtime: 0.143874
+X-Content-Digest: 90e65e282766fbc58213ee185d323df313aad8cc
+X-Rack-Cache: miss, store
+X-Cacheable: YES
+Content-Length: 828
+Accept-Ranges: bytes
+Date: Thu, 23 Jan 2014 05:04:33 GMT
+X-Varnish: 736158988
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"sourceIdentifier":"Panthera_id","taxonID":50650451,"parentNameUsageID":0,"taxonConceptID":14134,"scientificName":"Panthera","taxonRank":"Genus","source":"http://eol.org/pages/14134/hierarchy_entries/50650451/overview","nameAccordingTo":["South African Vertebrates"],"vernacularNames":[],"synonyms":[],"ancestors":[],"children":[{"sourceIdentifier":"40687","taxonID":50650452,"parentNameUsageID":50650451,"taxonConceptID":328673,"scientificName":"Panthera pardus (Linnaeus, 1758)","taxonRank":"species","source":"http://eol.org/pages/328673/hierarchy_entries/50650452/overview"},{"sourceIdentifier":"40689","taxonID":50650454,"parentNameUsageID":50650451,"taxonConceptID":328672,"scientificName":"Panthera leo (Linnaeus, 1758)","taxonRank":"species","source":"http://eol.org/pages/328672/hierarchy_entries/50650454/overview"}]}

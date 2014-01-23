@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "358db85d2b2e3cfeb146bc5ccfa49a37"
+X-Request-Id: 178f0e5a7314b532d17119f558467dd2
+X-Runtime: 0.410671
+X-Content-Digest: 2741cc623e3bd803175177002d709ada14335574
+X-Rack-Cache: miss, store
+X-Cacheable: YES
+Content-Length: 2465
+Accept-Ranges: bytes
+Date: Thu, 23 Jan 2014 04:53:43 GMT
+X-Varnish: 736142374
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"sourceIdentifier":"13092051","taxonID":52577711,"parentNameUsageID":52577532,"taxonConceptID":14134,"scientificName":"Panthera","taxonRank":"Genus","source":"http://eol.org/pages/14134/hierarchy_entries/52577711/overview","nameAccordingTo":["Species 2000 & ITIS Catalogue of Life: April 2013"],"vernacularNames":[],"synonyms":[],"ancestors":[{"sourceIdentifier":"13021388","taxonID":51521761,"parentNameUsageID":0,"taxonConceptID":1,"scientificName":"Animalia","taxonRank":"kingdom","source":"http://eol.org/pages/1/hierarchy_entries/51521761/overview"},{"sourceIdentifier":"13021452","taxonID":52569917,"parentNameUsageID":51521761,"taxonConceptID":694,"scientificName":"Chordata","taxonRank":"phylum","source":"http://eol.org/pages/694/hierarchy_entries/52569917/overview"},{"sourceIdentifier":"13021748","taxonID":52569943,"parentNameUsageID":52569917,"taxonConceptID":1642,"scientificName":"Mammalia","taxonRank":"class","source":"http://eol.org/pages/1642/hierarchy_entries/52569943/overview"},{"sourceIdentifier":"13022079","taxonID":52576388,"parentNameUsageID":52569943,"taxonConceptID":7662,"scientificName":"Carnivora","taxonRank":"order","source":"http://eol.org/pages/7662/hierarchy_entries/52576388/overview"},{"sourceIdentifier":"13022091","taxonID":52577532,"parentNameUsageID":52576388,"taxonConceptID":7674,"scientificName":"Felidae","taxonRank":"family","source":"http://eol.org/pages/7674/hierarchy_entries/52577532/overview"}],"children":[{"sourceIdentifier":"6850414","taxonID":52577712,"parentNameUsageID":52577711,"taxonConceptID":328606,"scientificName":"Panthera onca (Linnaeus, 1758)","taxonRank":"species","source":"http://eol.org/pages/328606/hierarchy_entries/52577712/overview"},{"sourceIdentifier":"6850596","taxonID":52577722,"parentNameUsageID":52577711,"taxonConceptID":328672,"scientificName":"Panthera leo (Linnaeus, 1758)","taxonRank":"species","source":"http://eol.org/pages/328672/hierarchy_entries/52577722/overview"},{"sourceIdentifier":"6850597","taxonID":52577734,"parentNameUsageID":52577711,"taxonConceptID":328673,"scientificName":"Panthera pardus (Linnaeus, 1758)","taxonRank":"species","source":"http://eol.org/pages/328673/hierarchy_entries/52577734/overview"},{"sourceIdentifier":"6850598","taxonID":52577743,"parentNameUsageID":52577711,"taxonConceptID":328674,"scientificName":"Panthera tigris (Linnaeus, 1758)","taxonRank":"species","source":"http://eol.org/pages/328674/hierarchy_entries/52577743/overview"}]}
