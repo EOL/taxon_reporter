@@ -17,13 +17,7 @@ module TaxonReporter
       end
     end
   
-    def self.get_api_response(url)
-      begin
-        HTTParty.get(url)
-      rescue SocketError
-        nil
-      end
-    end
+    def self.get_api_response(url); HTTParty.get(url); end
   
     def self.process_response(response, keys)
       if response.class == Array

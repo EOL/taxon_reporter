@@ -25,11 +25,6 @@ describe TaxonReporter::DataSource do
     expect(TaxonReporter::DataSource.get_api_response("http://eol.org/api/ping")).to_not be_nil
   end
 
-  it ".get_api_response with bad URL" do
-    stub_request(:get, "http://this.is.a.bad.url/").to_return(:status => 200, :body => "", :headers => {})
-    expect(TaxonReporter::DataSource.get_api_response("http://this.is.a.bad.url")).to be_nil
-  end
-
   context "search/Giraffa" do
     let(:url) { "http://eol.org/api/search/Giraffa.json?cache_ttl=86400&exact=t1" }
     let(:path) { ["results", "id"] }

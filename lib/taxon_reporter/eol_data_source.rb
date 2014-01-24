@@ -40,13 +40,9 @@ module TaxonReporter
     end
 
     def self.add_children(results)
-      if results
-        children = eol_children(filter_hes(results["he_ids"]))
-        results["children"] = children if children.length > 0
-        results
-      else
-        []
-      end
+      children = eol_children(filter_hes(results["he_ids"]))
+      results["children"] = children if children.length > 0
+      results
     end
     
     def self.pages_url(id)
