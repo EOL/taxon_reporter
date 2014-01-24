@@ -21,7 +21,7 @@ describe TaxonReporter::DataSource do
   end
 
   it ".get_api_response" do
-    stub_request(:get, "http://eol.org/api/ping").to_return(File.new 'spec/webmock/ping')
+    stub_request(:get, "http://eol.org/api/ping").to_return(File.new 'fixtures/webmock/ping')
     expect(TaxonReporter::DataSource.get_api_response("http://eol.org/api/ping")).to_not be_nil
   end
 
@@ -30,20 +30,20 @@ describe TaxonReporter::DataSource do
     expect(TaxonReporter::DataSource.get_api_response("http://this.is.a.bad.url")).to be_nil
   end
 
-  context "search/Gomphidiaceae" do
-    let(:url) { "http://eol.org/api/search/Gomphidiaceae.json?cache_ttl=86400&exact=t1" }
+  context "search/Giraffa" do
+    let(:url) { "http://eol.org/api/search/Giraffa.json?cache_ttl=86400&exact=t1" }
     let(:path) { ["results", "id"] }
-    let(:result) { File.new 'spec/webmock/search_Gomphidiaceae'}
+    let(:result) { File.new 'fixtures/webmock/s_Giraffa'}
     
     it ".get_api_result" do
       stub_request(:get, url).to_return(result)
-      expect(TaxonReporter::DataSource.get_api_result(url, path)).to eq(Set.new([5955]))
+      expect(TaxonReporter::DataSource.get_api_result(url, path)).to eq(Set.new([38813]))
     end
 
     it ".get_api_results" do
       stub_request(:get, url).to_return(result)
       expect(TaxonReporter::DataSource.get_api_results(url,
-             {"id" => path})).to eq({"id" => Set.new([5955])})
+             {"id" => path})).to eq({"id" => Set.new([38813])})
     end
   end
 end

@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "6335464509e17448dfcda0b8a1c12c1a"
+X-Request-Id: 13dc3cffc3b051b67f4b97a46b6611eb
+X-Runtime: 0.152153
+X-Content-Digest: 1127705680192cf278a2cdf322e9162347ef4b51
+X-Rack-Cache: fresh
+X-Cacheable: YES
+Content-Length: 391
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 02:10:28 GMT
+X-Varnish: 738674290
+Age: 2515
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"identifier":32137377,"scientificName":"Giraffa pygmaea Harris 1976","richness_score":2.93604,"synonyms":[],"vernacularNames":[],"references":[],"taxonConcepts":[{"identifier":49481252,"scientificName":"Giraffa pygmaea Harris 1976","nameAccordingTo":"Paleobiology Database","canonicalForm":"Giraffa pygmaea","sourceIdentfier":"urn:paleodb:tn185974","taxonRank":"Species"}],"dataObjects":[]}

@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "d00925e11acdf4588685f13229257a9a"
+X-Request-Id: 0b69422d8bc297b1835ab801a3c1019b
+X-Runtime: 0.200783
+X-Content-Digest: 15ef9d205115d4d7cad933babfbf45bb3aaceedd
+X-Rack-Cache: miss, store
+X-Cacheable: YES
+Content-Length: 1525
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 01:44:15 GMT
+X-Varnish: 738623717 738595354
+Age: 957
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"taxonID":24935172,"parentNameUsageID":24935171,"taxonConceptID":38813,"scientificName":"Giraffa","taxonRank":"Genus","source":"http://eol.org/pages/38813/hierarchy_entries/24935172/overview","nameAccordingTo":["IUCN Red List (Species Assessed for Global Conservation)"],"vernacularNames":[],"synonyms":[],"ancestors":[{"taxonID":24913771,"parentNameUsageID":0,"taxonConceptID":1,"scientificName":"Animalia","taxonRank":"kingdom","source":"http://eol.org/pages/1/hierarchy_entries/24913771/overview"},{"taxonID":24913792,"parentNameUsageID":24913771,"taxonConceptID":694,"scientificName":"Chordata","taxonRank":"phylum","source":"http://eol.org/pages/694/hierarchy_entries/24913792/overview"},{"taxonID":24913813,"parentNameUsageID":24913792,"taxonConceptID":1642,"scientificName":"Mammalia","taxonRank":"class","source":"http://eol.org/pages/1642/hierarchy_entries/24913813/overview"},{"taxonID":24914780,"parentNameUsageID":24913813,"taxonConceptID":2970170,"scientificName":"Cetartiodactyla","taxonRank":"order","source":"http://eol.org/pages/2970170/hierarchy_entries/24914780/overview"},{"taxonID":24935171,"parentNameUsageID":24914780,"taxonConceptID":7684,"scientificName":"Giraffidae","taxonRank":"family","source":"http://eol.org/pages/7684/hierarchy_entries/24935171/overview"}],"children":[{"sourceIdentifier":"IUCN-9194","taxonID":24935173,"parentNameUsageID":24935172,"taxonConceptID":308378,"scientificName":"Giraffa camelopardalis","source":"http://eol.org/pages/308378/hierarchy_entries/24935173/overview"}]}

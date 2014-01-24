@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "0f18ad0947dcaa835176af2f135d379b"
+X-Request-Id: afa98fc68584452fac182706e73790a4
+X-Runtime: 0.102488
+X-Content-Digest: eaa5da83fac21f7cbfea34259189bc5fb779327e
+X-Rack-Cache: miss, store
+X-Cacheable: YES
+Content-Length: 364
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 01:44:21 GMT
+X-Varnish: 738623918 738595297
+Age: 965
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"totalResults":1,"startIndex":1,"itemsPerPage":30,"results":[{"id":38813,"title":"Giraffa","link":"http://eol.org/38813?action=overview&controller=taxa","content":"Giraffa; Giraffa Brisson 1762"}],"first":"http://eol.org/api/search/Giraffa.json?page=1","self":"http://eol.org/api/search/Giraffa.json?page=1","last":"http://eol.org/api/search/Giraffa.json?page=1"}

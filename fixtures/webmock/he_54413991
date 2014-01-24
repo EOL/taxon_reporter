@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "7ef494be1e8f54a954ca2e75cd29c1e3"
+X-Request-Id: 48c7bc6aec32d54c5b24e66ad6bcf074
+X-Runtime: 0.123237
+X-Content-Digest: ccedd1ec348188d24c25b720e74afd96b0beda80
+X-Rack-Cache: miss, store
+X-Cacheable: YES
+Content-Length: 367
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 01:44:17 GMT
+X-Varnish: 738623808 738595363
+Age: 959
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"sourceIdentifier":"898184","taxonID":54413991,"parentNameUsageID":54413988,"taxonConceptID":38813,"scientificName":"Giraffa Brisson 1762","taxonRank":"Genus","source":"http://eol.org/pages/38813/hierarchy_entries/54413991/overview","nameAccordingTo":["Integrated Taxonomic Information System (ITIS)"],"vernacularNames":[],"synonyms":[],"ancestors":[],"children":[]}

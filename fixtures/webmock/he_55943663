@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "1cb12001494ae025f70fa4c7e5850aef"
+X-Request-Id: d1a7f4286f9c02a9504e80478239cac5
+X-Runtime: 0.186940
+X-Content-Digest: 277c858b37699df11cca930673f89851e981b6bb
+X-Rack-Cache: miss, store
+X-Cacheable: YES
+Content-Length: 3708
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 01:44:18 GMT
+X-Varnish: 738623847 738595516
+Age: 957
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"sourceIdentifier":"898598","taxonID":55943663,"parentNameUsageID":55943657,"taxonConceptID":4446006,"scientificName":"Giraffa camelopardalis giraffa (Schreber, 1784)","taxonRank":"Subspecies","source":"http://eol.org/pages/4446006/hierarchy_entries/55943663/overview","nameAccordingTo":["Integrated Taxonomic Information System (ITIS)"],"vernacularNames":[],"synonyms":[],"ancestors":[{"sourceIdentifier":"202423","taxonID":46216568,"parentNameUsageID":0,"taxonConceptID":1,"scientificName":"Animalia","taxonRank":"kingdom","source":"http://eol.org/pages/1/hierarchy_entries/46216568/overview"},{"sourceIdentifier":"914154","taxonID":55547576,"parentNameUsageID":46216568,"taxonConceptID":3014411,"scientificName":"Bilateria","taxonRank":"subkingdom","source":"http://eol.org/pages/3014411/hierarchy_entries/55547576/overview"},{"sourceIdentifier":"914156","taxonID":55849855,"parentNameUsageID":55547576,"taxonConceptID":8814528,"scientificName":"Deuterostomia","taxonRank":"infrakingdom","source":"http://eol.org/pages/8814528/hierarchy_entries/55849855/overview"},{"sourceIdentifier":"158852","taxonID":55851570,"parentNameUsageID":55849855,"taxonConceptID":694,"scientificName":"Chordata","taxonRank":"division","source":"http://eol.org/pages/694/hierarchy_entries/55851570/overview"},{"sourceIdentifier":"331030","taxonID":55852129,"parentNameUsageID":55851570,"taxonConceptID":2774383,"scientificName":"Vertebrata","taxonRank":"subdivision","source":"http://eol.org/pages/2774383/hierarchy_entries/55852129/overview"},{"sourceIdentifier":"914179","taxonID":55852273,"parentNameUsageID":55852129,"taxonConceptID":12094272,"scientificName":"Gnathostomata","taxonRank":"infraphylum","source":"http://eol.org/pages/12094272/hierarchy_entries/55852273/overview"},{"sourceIdentifier":"914181","taxonID":55887047,"parentNameUsageID":55852273,"taxonConceptID":4712200,"scientificName":"Tetrapoda","taxonRank":"superclass","source":"http://eol.org/pages/4712200/hierarchy_entries/55887047/overview"},{"sourceIdentifier":"179913","taxonID":55934471,"parentNameUsageID":55887047,"taxonConceptID":1642,"scientificName":"Mammalia Linnaeus, 1758","taxonRank":"class","source":"http://eol.org/pages/1642/hierarchy_entries/55934471/overview"},{"sourceIdentifier":"179916","taxonID":55934493,"parentNameUsageID":55934471,"taxonConceptID":57446,"scientificName":"Theria Parker and Haswell, 1897","taxonRank":"subclass","source":"http://eol.org/pages/57446/hierarchy_entries/55934493/overview"},{"sourceIdentifier":"179925","taxonID":55935187,"parentNameUsageID":55934493,"taxonConceptID":38591064,"scientificName":"Eutheria Gill, 1872","taxonRank":"infraclass","source":"http://eol.org/pages/38591064/hierarchy_entries/55935187/overview"},{"sourceIdentifier":"180692","taxonID":55942670,"parentNameUsageID":55935187,"taxonConceptID":7678,"scientificName":"Artiodactyla Owen, 1848","taxonRank":"order","source":"http://eol.org/pages/7678/hierarchy_entries/55942670/overview"},{"sourceIdentifier":"624920","taxonID":55943653,"parentNameUsageID":55942670,"taxonConceptID":7684,"scientificName":"Giraffidae Gray, 1821","taxonRank":"family","source":"http://eol.org/pages/7684/hierarchy_entries/55943653/overview"},{"sourceIdentifier":"898184","taxonID":55943656,"parentNameUsageID":55943653,"taxonConceptID":38813,"scientificName":"Giraffa Brisson 1762","taxonRank":"genus","source":"http://eol.org/pages/38813/hierarchy_entries/55943656/overview"},{"sourceIdentifier":"625036","taxonID":55943657,"parentNameUsageID":55943656,"taxonConceptID":308378,"scientificName":"Giraffa camelopardalis (Linnaeus, 1758)","taxonRank":"species","source":"http://eol.org/pages/308378/hierarchy_entries/55943657/overview"}],"children":[]}

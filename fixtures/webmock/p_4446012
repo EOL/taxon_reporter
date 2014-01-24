@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "cd4a241057abe9a42227218c75d4fa22"
+X-Request-Id: 815a955ac486b06c14d20e5d7f2298d0
+X-Runtime: 0.119844
+X-Content-Digest: 6e6995d3e1a19ca09884f5229ac50611716ccc95
+X-Rack-Cache: fresh
+X-Cacheable: YES
+Content-Length: 621
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 02:10:29 GMT
+X-Varnish: 738674307
+Age: 2523
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"identifier":4446012,"scientificName":"Giraffa camelopardalis angolensis","richness_score":23.3413,"synonyms":[],"vernacularNames":[],"references":[],"taxonConcepts":[{"identifier":51377287,"scientificName":"Giraffa camelopardalis angolensis","nameAccordingTo":"NCBI Taxonomy","canonicalForm":"Giraffa camelopardalis angolensis","sourceIdentfier":"439323","taxonRank":"Subspecies"},{"identifier":41525161,"scientificName":"Giraffa camelopardalis angolensis","nameAccordingTo":"GBIF Nub Taxonomy","canonicalForm":"Giraffa camelopardalis angolensis","sourceIdentfier":"5846959","taxonRank":"Subspecies"}],"dataObjects":[]}

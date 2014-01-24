@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "06f17a69b49fd2be11a640b3d364ca8c"
+X-Request-Id: 3a07cfd57920ee3e2a911caa686d1bbb
+X-Runtime: 0.169118
+X-Content-Digest: 3cfe98772cedc683313665cd8716b71cc19487d4
+X-Rack-Cache: fresh
+X-Cacheable: YES
+Content-Length: 977
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 02:10:28 GMT
+X-Varnish: 738674296
+Age: 2518
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"identifier":4445992,"scientificName":"Giraffa jumae Leakey, 1967","richness_score":23.8876,"synonyms":[],"vernacularNames":[],"references":[],"taxonConcepts":[{"identifier":49481247,"scientificName":"Giraffa jumae Leakey, 1967","nameAccordingTo":"Paleobiology Database","canonicalForm":"Giraffa jumae","sourceIdentfier":"urn:paleodb:tn133599","taxonRank":"Species"},{"identifier":41525162,"scientificName":"Giraffa jumae","nameAccordingTo":"GBIF Nub Taxonomy","canonicalForm":"Giraffa jumae","sourceIdentfier":"4970703","taxonRank":"Species"},{"identifier":49339386,"scientificName":"Giraffa jumae Leakey, 1967","nameAccordingTo":"Paleobiology Database","canonicalForm":"Giraffa jumae","sourceIdentfier":"urn:paleodb:tn133599","taxonRank":"Species"},{"identifier":49222055,"scientificName":"Giraffa jumae Leakey, 1967","nameAccordingTo":"Paleobiology Database","canonicalForm":"Giraffa jumae","sourceIdentfier":"urn:paleodb:tn133599","taxonRank":"Species"}],"dataObjects":[]}

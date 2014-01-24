@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "128f7c83b8ef07908d5674968167e639"
+X-Request-Id: 829611c13296bfe24408193990f59088
+X-Runtime: 0.144337
+X-Content-Digest: 7013f31009b73ebcd628065e52ea555270e24786
+X-Rack-Cache: fresh
+X-Cacheable: YES
+Content-Length: 621
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 02:10:28 GMT
+X-Varnish: 738674279
+Age: 2521
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"identifier":10643171,"scientificName":"Giraffa camelopardalis antiquorum","richness_score":24.447,"synonyms":[],"vernacularNames":[],"references":[],"taxonConcepts":[{"identifier":51377288,"scientificName":"Giraffa camelopardalis antiquorum","nameAccordingTo":"NCBI Taxonomy","canonicalForm":"Giraffa camelopardalis antiquorum","sourceIdentfier":"439324","taxonRank":"Subspecies"},{"identifier":41525160,"scientificName":"Giraffa camelopardalis antiquorum","nameAccordingTo":"GBIF Nub Taxonomy","canonicalForm":"Giraffa camelopardalis antiquorum","sourceIdentfier":"5846958","taxonRank":"Subspecies"}],"dataObjects":[]}

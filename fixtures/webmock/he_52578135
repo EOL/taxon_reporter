@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "9ce8becd400296588cfbd05845620d67"
+X-Request-Id: 1591e5a81c409cd4e7e5a4ba38441e1e
+X-Runtime: 0.168181
+X-Content-Digest: 6b63561dd4a6adb66d9f0ad3f566b83392f90fe8
+X-Rack-Cache: miss, store
+X-Cacheable: YES
+Content-Length: 1811
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 01:44:17 GMT
+X-Varnish: 738623805 738595462
+Age: 957
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"sourceIdentifier":"6903814","taxonID":52578135,"parentNameUsageID":52578134,"taxonConceptID":308378,"scientificName":"Giraffa camelopardalis (Linnaeus, 1758)","taxonRank":"Species","source":"http://eol.org/pages/308378/hierarchy_entries/52578135/overview","nameAccordingTo":["Species 2000 & ITIS Catalogue of Life: April 2013","ITIS Global: The Integrated Taxonomic Information System by Orrell T. (custodian)"],"vernacularNames":[],"synonyms":[],"ancestors":[{"sourceIdentifier":"13021388","taxonID":51521761,"parentNameUsageID":0,"taxonConceptID":1,"scientificName":"Animalia","taxonRank":"kingdom","source":"http://eol.org/pages/1/hierarchy_entries/51521761/overview"},{"sourceIdentifier":"13021452","taxonID":52569917,"parentNameUsageID":51521761,"taxonConceptID":694,"scientificName":"Chordata","taxonRank":"phylum","source":"http://eol.org/pages/694/hierarchy_entries/52569917/overview"},{"sourceIdentifier":"13021748","taxonID":52569943,"parentNameUsageID":52569917,"taxonConceptID":1642,"scientificName":"Mammalia","taxonRank":"class","source":"http://eol.org/pages/1642/hierarchy_entries/52569943/overview"},{"sourceIdentifier":"13022100","taxonID":52578082,"parentNameUsageID":52569943,"taxonConceptID":7678,"scientificName":"Artiodactyla","taxonRank":"order","source":"http://eol.org/pages/7678/hierarchy_entries/52578082/overview"},{"sourceIdentifier":"13022106","taxonID":52578133,"parentNameUsageID":52578082,"taxonConceptID":7684,"scientificName":"Giraffidae","taxonRank":"family","source":"http://eol.org/pages/7684/hierarchy_entries/52578133/overview"},{"sourceIdentifier":"13110862","taxonID":52578134,"parentNameUsageID":52578133,"taxonConceptID":38813,"scientificName":"Giraffa","taxonRank":"genus","source":"http://eol.org/pages/38813/hierarchy_entries/52578134/overview"}],"children":[]}

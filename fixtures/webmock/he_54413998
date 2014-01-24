@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "80845cfe184da5b7b37d67105d9f7752"
+X-Request-Id: f6b79ee73fe53d4f3ac80643e38aeaae
+X-Runtime: 0.142708
+X-Content-Digest: 90cb3faf249dd6259819a8a0f504bae97f1305b0
+X-Rack-Cache: miss, store
+X-Cacheable: YES
+Content-Length: 403
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 01:44:17 GMT
+X-Varnish: 738623824 738595526
+Age: 956
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"sourceIdentifier":"898598","taxonID":54413998,"parentNameUsageID":54413992,"taxonConceptID":4446006,"scientificName":"Giraffa camelopardalis giraffa (Schreber, 1784)","taxonRank":"Subspecies","source":"http://eol.org/pages/4446006/hierarchy_entries/54413998/overview","nameAccordingTo":["Integrated Taxonomic Information System (ITIS)"],"vernacularNames":[],"synonyms":[],"ancestors":[],"children":[]}

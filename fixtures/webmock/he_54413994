@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "d747023d0450182b6bfef8d447e459c7"
+X-Request-Id: a1ee95da11f2d4ac82f43320be404614
+X-Runtime: 0.117824
+X-Content-Digest: f4e29f3f09f7fa2c2c9eb62e5c2e07ee914c9bf9
+X-Rack-Cache: miss, store
+X-Cacheable: YES
+Content-Length: 405
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 01:44:17 GMT
+X-Varnish: 738623817 738595658
+Age: 952
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"sourceIdentifier":"898594","taxonID":54413994,"parentNameUsageID":54413992,"taxonConceptID":4446011,"scientificName":"Giraffa camelopardalis reticulata De Winton, 1899","taxonRank":"Subspecies","source":"http://eol.org/pages/4446011/hierarchy_entries/54413994/overview","nameAccordingTo":["Integrated Taxonomic Information System (ITIS)"],"vernacularNames":[],"synonyms":[],"ancestors":[],"children":[]}

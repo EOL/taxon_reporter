@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "d3a2545ff0d3c8973c6f28776eb98611"
+X-Request-Id: 399673653b92a3e11ffb514301186acf
+X-Runtime: 0.116422
+X-Content-Digest: 106c5c15a25fd1a0ae9d20df3f2b4d8a1d3efb16
+X-Rack-Cache: miss, store
+X-Cacheable: YES
+Content-Length: 355
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 01:44:15 GMT
+X-Varnish: 738623735 738595331
+Age: 959
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"sourceIdentifier":"urn:paleodb:tn42695","taxonID":49339384,"parentNameUsageID":49339383,"taxonConceptID":38813,"scientificName":"Giraffa Brisson 1762","taxonRank":"Genus","source":"http://eol.org/pages/38813/hierarchy_entries/49339384/overview","nameAccordingTo":["Paleobiology Database"],"vernacularNames":[],"synonyms":[],"ancestors":[],"children":[]}

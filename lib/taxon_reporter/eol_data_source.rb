@@ -23,8 +23,12 @@ module TaxonReporter
     
     def self.taxons_from_id(id)
       taxon = TaxonReporter::Taxon.new(self.records(id))
-      # children = taxon.values(@@fields["children"])
-      [taxon]
+      result = [taxon]
+      children = taxon.values(@@fields['children'])
+      if children
+        children.each {|c| result += taxons_from_id(c)}
+      end
+      result
     end
     
     def self.records(id)

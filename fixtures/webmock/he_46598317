@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "28e4a4288685c2458fc0da353077c0e4"
+X-Request-Id: c4793229e007ea8a1d855ee7415d2f45
+X-Runtime: 0.119346
+X-Content-Digest: 875f270fa3009a740a20c037882f9554bd63bda7
+X-Rack-Cache: miss, store
+X-Cacheable: YES
+Content-Length: 374
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 01:44:15 GMT
+X-Varnish: 738623721 738595323
+Age: 959
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"sourceIdentifier":"624948","taxonID":46598317,"parentNameUsageID":46598316,"taxonConceptID":38813,"scientificName":"Giraffa Br\u00fcnnich, 1771","taxonRank":"Genus","source":"http://eol.org/pages/38813/hierarchy_entries/46598317/overview","nameAccordingTo":["Integrated Taxonomic Information System (ITIS)"],"vernacularNames":[],"synonyms":[],"ancestors":[],"children":[]}

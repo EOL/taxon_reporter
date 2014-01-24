@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "e1ff3bab47ae0227a83718cc34df6457"
+X-Request-Id: d8bb5fd3aae0ed5a5f855cddd228c1f5
+X-Runtime: 0.226586
+X-Content-Digest: a413eecff83596f9dbb0bdf62cb1e18c51f31bf6
+X-Rack-Cache: fresh
+X-Cacheable: YES
+Content-Length: 828
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 02:10:28 GMT
+X-Varnish: 738674298
+Age: 2518
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"identifier":4445998,"scientificName":"Giraffa priscilla Pilgrim 1911","richness_score":2.93604,"synonyms":[],"vernacularNames":[],"references":[],"taxonConcepts":[{"identifier":49481249,"scientificName":"Giraffa priscilla Pilgrim 1911","nameAccordingTo":"Paleobiology Database","canonicalForm":"Giraffa priscilla","sourceIdentfier":"urn:paleodb:tn185971","taxonRank":"Species"},{"identifier":49339388,"scientificName":"Giraffa priscilla Pilgrim 1911","nameAccordingTo":"Paleobiology Database","canonicalForm":"Giraffa priscilla","sourceIdentfier":"urn:paleodb:tn185971","taxonRank":"Species"},{"identifier":49222057,"scientificName":"Giraffa priscilla Pilgrim 1911","nameAccordingTo":"Paleobiology Database","canonicalForm":"Giraffa priscilla","sourceIdentfier":"urn:paleodb:tn185971","taxonRank":"Species"}],"dataObjects":[]}

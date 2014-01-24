@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "75e7f8faf07c82cdfecbc7a14a5a65d6"
+X-Request-Id: c6fae2ddd1511591d49f13221d861bfb
+X-Runtime: 0.118137
+X-Content-Digest: ae9f9036385f734328a67808e18a9ab1c3e5ecfd
+X-Rack-Cache: miss, store
+X-Cacheable: YES
+Content-Length: 386
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 01:44:16 GMT
+X-Varnish: 738623742 738595737
+Age: 946
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"sourceIdentifier":"urn:paleodb:tn185972","taxonID":49339389,"parentNameUsageID":49339384,"taxonConceptID":4445991,"scientificName":"Giraffa sivalensis Falconer and Cautley 1843","taxonRank":"Species","source":"http://eol.org/pages/4445991/hierarchy_entries/49339389/overview","nameAccordingTo":["Paleobiology Database"],"vernacularNames":[],"synonyms":[],"ancestors":[],"children":[]}

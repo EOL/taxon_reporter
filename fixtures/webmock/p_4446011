@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "0ed91eccb5e3f669ec8f6046ee375c27"
+X-Request-Id: ab82a9cfa2d739b93ebaf478308ad9b3
+X-Runtime: 0.140282
+X-Content-Digest: fe511f61a4e5e0f09793ce27d7bcdc31871a2dff
+X-Rack-Cache: fresh
+X-Cacheable: YES
+Content-Length: 1188
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 02:10:28 GMT
+X-Varnish: 738674305
+Age: 2523
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"identifier":4446011,"scientificName":"Giraffa camelopardalis reticulata De Winton, 1899","richness_score":53.2371,"synonyms":[],"vernacularNames":[],"references":[],"taxonConcepts":[{"identifier":55943659,"scientificName":"Giraffa camelopardalis reticulata De Winton, 1899","nameAccordingTo":"Integrated Taxonomic Information System (ITIS)","canonicalForm":"Giraffa camelopardalis reticulata","sourceIdentfier":"898594","taxonRank":"Subspecies"},{"identifier":51377286,"scientificName":"Giraffa camelopardalis reticulata","nameAccordingTo":"NCBI Taxonomy","canonicalForm":"Giraffa camelopardalis reticulata","sourceIdentfier":"409609","taxonRank":"Subspecies"},{"identifier":41525154,"scientificName":"Giraffa camelopardalis subsp. reticulata De Winton, 1899","nameAccordingTo":"GBIF Nub Taxonomy","canonicalForm":"Giraffa camelopardalis reticulata","sourceIdentfier":"4262210","taxonRank":"Subspecies"},{"identifier":54413994,"scientificName":"Giraffa camelopardalis reticulata De Winton, 1899","nameAccordingTo":"Integrated Taxonomic Information System (ITIS)","canonicalForm":"Giraffa camelopardalis reticulata","sourceIdentfier":"898594","taxonRank":"Subspecies"}],"dataObjects":[]}

@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "36218827c50c859895cdb53eb5050789"
+X-Request-Id: e5af502ae9f049d9a0f8eddc19c4efe0
+X-Runtime: 0.127941
+X-Content-Digest: 585b47c6f82c2c5f8836979042c7ee07cbbe0115
+X-Rack-Cache: fresh
+X-Cacheable: YES
+Content-Length: 850
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 02:10:28 GMT
+X-Varnish: 738674280
+Age: 2516
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"identifier":13611746,"scientificName":"Giraffa punjabiensis Pilgrim 1911","richness_score":2.93604,"synonyms":[],"vernacularNames":[],"references":[],"taxonConcepts":[{"identifier":49481248,"scientificName":"Giraffa punjabiensis Pilgrim 1911","nameAccordingTo":"Paleobiology Database","canonicalForm":"Giraffa punjabiensis","sourceIdentfier":"urn:paleodb:tn185970","taxonRank":"Species"},{"identifier":49339387,"scientificName":"Giraffa punjabiensis Pilgrim 1911","nameAccordingTo":"Paleobiology Database","canonicalForm":"Giraffa punjabiensis","sourceIdentfier":"urn:paleodb:tn185970","taxonRank":"Species"},{"identifier":49222056,"scientificName":"Giraffa punjabiensis Pilgrim 1911","nameAccordingTo":"Paleobiology Database","canonicalForm":"Giraffa punjabiensis","sourceIdentfier":"urn:paleodb:tn185970","taxonRank":"Species"}],"dataObjects":[]}

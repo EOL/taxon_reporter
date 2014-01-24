@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "84f8a10a134e96221d62140c7989df4d"
+X-Request-Id: 53ba11b0b190198e4718a73f0649040f
+X-Runtime: 0.154952
+X-Content-Digest: 52d9320cf83092200234e7629586448f4abb458f
+X-Rack-Cache: fresh
+X-Cacheable: YES
+Content-Length: 385
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 02:10:28 GMT
+X-Varnish: 738674283
+Age: 2520
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"identifier":21640907,"scientificName":"Giraffa camelopardalis hybrid subspecies","richness_score":1.335,"synonyms":[],"vernacularNames":[],"references":[],"taxonConcepts":[{"identifier":51377293,"scientificName":"Giraffa camelopardalis hybrid subspecies","nameAccordingTo":"NCBI Taxonomy","canonicalForm":"Giraffa camelopardalis hybrid","sourceIdentfier":"927613"}],"dataObjects":[]}

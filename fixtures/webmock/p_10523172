@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "148734f5ff2465660ce7e0ddcf27a108"
+X-Request-Id: 02c5919975f654e5eb730940a1256372
+X-Runtime: 0.151729
+X-Content-Digest: 4c4d6c66ccfc45711eaaccc5a7cb3f66409bdd6b
+X-Rack-Cache: fresh
+X-Cacheable: YES
+Content-Length: 625
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 02:07:06 GMT
+X-Varnish: 738668157
+Age: 2320
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"identifier":10523172,"scientificName":"Giraffa camelopardalis peralta","richness_score":37.1029,"synonyms":[],"vernacularNames":[],"references":[],"taxonConcepts":[{"identifier":51377290,"scientificName":"Giraffa camelopardalis peralta","nameAccordingTo":"NCBI Taxonomy","canonicalForm":"Giraffa camelopardalis peralta","sourceIdentfier":"439326","taxonRank":"Subspecies"},{"identifier":41525159,"scientificName":"Giraffa camelopardalis ssp. peralta Thomas, 1898","nameAccordingTo":"GBIF Nub Taxonomy","canonicalForm":"Giraffa camelopardalis peralta","sourceIdentfier":"5787063","taxonRank":"Subspecies"}],"dataObjects":[]}

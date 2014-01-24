@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "f51d97ad31129b98a05d1eac9c8f54e7"
+X-Request-Id: 6f00bcf888ad6d6ac562ecfe52932e3f
+X-Runtime: 0.202340
+X-Content-Digest: b2edfde93eea7beb6bc171c8d0942f50bc70c734
+X-Rack-Cache: miss, store
+X-Cacheable: YES
+Content-Length: 2868
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 01:44:16 GMT
+X-Varnish: 738623764 738595335
+Age: 959
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"sourceIdentifier":"41076","taxonID":50650187,"parentNameUsageID":50650186,"taxonConceptID":38813,"scientificName":"Giraffa Brisson 1762","taxonRank":"Genus","source":"http://eol.org/pages/38813/hierarchy_entries/50650187/overview","nameAccordingTo":["South African Vertebrates"],"vernacularNames":[],"synonyms":[],"ancestors":[{"sourceIdentifier":"10001","taxonID":50646189,"parentNameUsageID":0,"taxonConceptID":1,"scientificName":"Animalia","taxonRank":"kingdom","source":"http://eol.org/pages/1/hierarchy_entries/50646189/overview"},{"sourceIdentifier":"10002","taxonID":50646190,"parentNameUsageID":50646189,"taxonConceptID":694,"scientificName":"Chordata","taxonRank":"phylum","source":"http://eol.org/pages/694/hierarchy_entries/50646190/overview"},{"sourceIdentifier":"10003","taxonID":50646191,"parentNameUsageID":50646190,"taxonConceptID":2774383,"scientificName":"Vertebrata","taxonRank":"Sub Phylum","source":"http://eol.org/pages/2774383/hierarchy_entries/50646191/overview"},{"sourceIdentifier":"40004","taxonID":50649292,"parentNameUsageID":50646191,"taxonConceptID":1642,"scientificName":"Mammalia","taxonRank":"class","source":"http://eol.org/pages/1642/hierarchy_entries/50649292/overview"},{"sourceIdentifier":"40005","taxonID":50649293,"parentNameUsageID":50649292,"taxonConceptID":2844801,"scientificName":"Eutheria","taxonRank":"infraclass","source":"http://eol.org/pages/2844801/hierarchy_entries/50649293/overview"},{"sourceIdentifier":"40442","taxonID":50649720,"parentNameUsageID":50649293,"taxonConceptID":33305340,"scientificName":"Laurasiatheria","taxonRank":"Super Cohort","source":"http://eol.org/pages/33305340/hierarchy_entries/50649720/overview"},{"sourceIdentifier":"40953","taxonID":50650065,"parentNameUsageID":50649720,"taxonConceptID":3014522,"scientificName":"Ruminantia","taxonRank":"order","source":"http://eol.org/pages/3014522/hierarchy_entries/50650065/overview"},{"sourceIdentifier":"41073","taxonID":50650184,"parentNameUsageID":50650065,"taxonConceptID":33305804,"scientificName":"Pecora","taxonRank":"suborder","source":"http://eol.org/pages/33305804/hierarchy_entries/50650184/overview"},{"sourceIdentifier":"41074","taxonID":50650185,"parentNameUsageID":50650184,"taxonConceptID":3014552,"scientificName":"Giraffoidea","taxonRank":"superfamily","source":"http://eol.org/pages/3014552/hierarchy_entries/50650185/overview"},{"sourceIdentifier":"41075","taxonID":50650186,"parentNameUsageID":50650185,"taxonConceptID":7684,"scientificName":"Giraffidae","taxonRank":"family","source":"http://eol.org/pages/7684/hierarchy_entries/50650186/overview"}],"children":[{"sourceIdentifier":"41077","taxonID":50650188,"parentNameUsageID":50650187,"taxonConceptID":308378,"scientificName":"Giraffa camelopardalis (Linnaeus, 1758)","taxonRank":"species","source":"http://eol.org/pages/308378/hierarchy_entries/50650188/overview"}]}

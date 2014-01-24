@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "c00cdf807b4413b1822df9b3e3844fdd"
+X-Request-Id: 624c631004b0cb369f21392b3dbd8c32
+X-Runtime: 0.122376
+X-Content-Digest: 82f63058bb3ad89e57dc6ea4de46279d677fb69d
+X-Rack-Cache: miss, store
+X-Cacheable: YES
+Content-Length: 390
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 01:44:17 GMT
+X-Varnish: 738623812 738595472
+Age: 957
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"sourceIdentifier":"625036","taxonID":54413992,"parentNameUsageID":54413991,"taxonConceptID":308378,"scientificName":"Giraffa camelopardalis (Linnaeus, 1758)","taxonRank":"Species","source":"http://eol.org/pages/308378/hierarchy_entries/54413992/overview","nameAccordingTo":["Integrated Taxonomic Information System (ITIS)"],"vernacularNames":[],"synonyms":[],"ancestors":[],"children":[]}

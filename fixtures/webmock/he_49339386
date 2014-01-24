@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "b5714d4b2067c735cd1a644384708af0"
+X-Request-Id: 77527b858ddf1b839e95ff2367198e82
+X-Runtime: 0.105473
+X-Content-Digest: 7a9cf72f2693fd78402085c7e8c4059cd9bb0f54
+X-Rack-Cache: miss, store
+X-Cacheable: YES
+Content-Length: 368
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 01:44:15 GMT
+X-Varnish: 738623738 738595756
+Age: 945
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"sourceIdentifier":"urn:paleodb:tn133599","taxonID":49339386,"parentNameUsageID":49339384,"taxonConceptID":4445992,"scientificName":"Giraffa jumae Leakey, 1967","taxonRank":"Species","source":"http://eol.org/pages/4445992/hierarchy_entries/49339386/overview","nameAccordingTo":["Paleobiology Database"],"vernacularNames":[],"synonyms":[],"ancestors":[],"children":[]}

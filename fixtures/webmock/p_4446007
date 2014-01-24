@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "7671761719d79517aeb88c83e2b2aa56"
+X-Request-Id: c64f411db783ac86dac159cb0b72fedc
+X-Runtime: 0.154933
+X-Content-Digest: 50b9099b567cb6bc9798e4b885b43475e9a4a05d
+X-Rack-Cache: fresh
+X-Cacheable: YES
+Content-Length: 1193
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 02:10:28 GMT
+X-Varnish: 738674301
+Age: 2526
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"identifier":4446007,"scientificName":"Giraffa camelopardalis rothschildi Lydekker, 1903","richness_score":55.8811,"synonyms":[],"vernacularNames":[],"references":[],"taxonConcepts":[{"identifier":55943660,"scientificName":"Giraffa camelopardalis rothschildi Lydekker, 1903","nameAccordingTo":"Integrated Taxonomic Information System (ITIS)","canonicalForm":"Giraffa camelopardalis rothschildi","sourceIdentfier":"898595","taxonRank":"Subspecies"},{"identifier":54413995,"scientificName":"Giraffa camelopardalis rothschildi Lydekker, 1903","nameAccordingTo":"Integrated Taxonomic Information System (ITIS)","canonicalForm":"Giraffa camelopardalis rothschildi","sourceIdentfier":"898595","taxonRank":"Subspecies"},{"identifier":51377291,"scientificName":"Giraffa camelopardalis rothschildi","nameAccordingTo":"NCBI Taxonomy","canonicalForm":"Giraffa camelopardalis rothschildi","sourceIdentfier":"439327","taxonRank":"Subspecies"},{"identifier":41525158,"scientificName":"Giraffa camelopardalis subsp. rothschildi Lydekker, 1903","nameAccordingTo":"GBIF Nub Taxonomy","canonicalForm":"Giraffa camelopardalis rothschildi","sourceIdentfier":"4262214","taxonRank":"Subspecies"}],"dataObjects":[]}

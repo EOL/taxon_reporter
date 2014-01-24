@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "722d45bf69b0f031544b1b109c82c577"
+X-Request-Id: 3bb671eefb3728bb1c2280b0ef1fdf8b
+X-Runtime: 0.119613
+X-Content-Digest: e8193114c4bd5823edf2c10d8c1100b63237ad08
+X-Rack-Cache: miss, store
+X-Cacheable: YES
+Content-Length: 377
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 01:44:15 GMT
+X-Varnish: 738623729 738595883
+Age: 943
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"sourceIdentifier":"urn:paleodb:tn185970","taxonID":49222056,"parentNameUsageID":49222053,"taxonConceptID":13611746,"scientificName":"Giraffa punjabiensis Pilgrim 1911","taxonRank":"Species","source":"http://eol.org/pages/13611746/hierarchy_entries/49222056/overview","nameAccordingTo":["Paleobiology Database"],"vernacularNames":[],"synonyms":[],"ancestors":[],"children":[]}

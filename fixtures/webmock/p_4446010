@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "750ea6288af47d1ca8bb5d361301262b"
+X-Request-Id: 111f1933d802dc56d9959ecae7bad775
+X-Runtime: 0.133953
+X-Content-Digest: aa70544f4ade0db878f0fdb8858020a69bc049eb
+X-Rack-Cache: fresh
+X-Cacheable: YES
+Content-Length: 1003
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 02:10:28 GMT
+X-Varnish: 738674303
+Age: 2524
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"identifier":4446010,"scientificName":"Giraffa camelopardalis camelopardalis (Linnaeus, 1758)","richness_score":19.0478,"synonyms":[],"vernacularNames":[],"references":[],"taxonConcepts":[{"identifier":55943658,"scientificName":"Giraffa camelopardalis camelopardalis (Linnaeus, 1758)","nameAccordingTo":"Integrated Taxonomic Information System (ITIS)","canonicalForm":"Giraffa camelopardalis camelopardalis","sourceIdentfier":"898593","taxonRank":"Subspecies"},{"identifier":54413993,"scientificName":"Giraffa camelopardalis camelopardalis (Linnaeus, 1758)","nameAccordingTo":"Integrated Taxonomic Information System (ITIS)","canonicalForm":"Giraffa camelopardalis camelopardalis","sourceIdentfier":"898593","taxonRank":"Subspecies"},{"identifier":41525156,"scientificName":"Giraffa camelopardalis subsp. camelopardalis Linnaeus, 1758","nameAccordingTo":"GBIF Nub Taxonomy","canonicalForm":"Giraffa camelopardalis camelopardalis","sourceIdentfier":"4262212","taxonRank":"Subspecies"}],"dataObjects":[]}

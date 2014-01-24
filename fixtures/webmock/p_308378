@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "3f14ec4a58bc3c5cd170ea99e75f966e"
+X-Request-Id: 9199d1f0af89bc41f36920436966d972
+X-Runtime: 0.149726
+X-Content-Digest: 120412d71c8292ccb832a7560dfcb76b08f6aa06
+X-Rack-Cache: fresh
+X-Cacheable: YES
+Content-Length: 2655
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 02:10:28 GMT
+X-Varnish: 738674284
+Age: 2530
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"identifier":308378,"scientificName":"Giraffa camelopardalis","richness_score":93.4039,"synonyms":[],"vernacularNames":[],"references":[],"taxonConcepts":[{"identifier":51377285,"scientificName":"Giraffa camelopardalis","nameAccordingTo":"NCBI Taxonomy","canonicalForm":"Giraffa camelopardalis","sourceIdentfier":"9894","taxonRank":"Species"},{"identifier":49481253,"scientificName":"Giraffa camelopardalis (Linnaeus, 1758)","nameAccordingTo":"Paleobiology Database","canonicalForm":"Giraffa camelopardalis","sourceIdentfier":"urn:paleodb:tn133600","taxonRank":"Species"},{"identifier":46598318,"scientificName":"Giraffa camelopardalis (Linnaeus, 1758)","nameAccordingTo":"Integrated Taxonomic Information System (ITIS)","canonicalForm":"Giraffa camelopardalis","sourceIdentfier":"625036","taxonRank":"Species"},{"identifier":49222054,"scientificName":"Giraffa camelopardalis Linnaeus, 1758","nameAccordingTo":"Paleobiology Database","canonicalForm":"Giraffa camelopardalis","sourceIdentfier":"urn:paleodb:tn133600","taxonRank":"Species"},{"identifier":49339385,"scientificName":"Giraffa camelopardalis (Linnaeus, 1758)","nameAccordingTo":"Paleobiology Database","canonicalForm":"Giraffa camelopardalis","sourceIdentfier":"urn:paleodb:tn133600","taxonRank":"Species"},{"identifier":41525152,"scientificName":"Giraffa camelopardalis (Linnaeus, 1758)","nameAccordingTo":"GBIF Nub Taxonomy","canonicalForm":"Giraffa camelopardalis","sourceIdentfier":"2441205","taxonRank":"Species"},{"identifier":50650188,"scientificName":"Giraffa camelopardalis (Linnaeus, 1758)","nameAccordingTo":"South African Vertebrates","canonicalForm":"Giraffa camelopardalis","sourceIdentfier":"41077","taxonRank":"Species"},{"identifier":24935173,"scientificName":"Giraffa camelopardalis","nameAccordingTo":"IUCN Red List (Species Assessed for Global Conservation)","canonicalForm":"Giraffa camelopardalis","sourceIdentfier":"IUCN-9194"},{"identifier":52578135,"scientificName":"Giraffa camelopardalis (Linnaeus, 1758)","nameAccordingTo":"Species 2000 & ITIS Catalogue of Life: April 2013","canonicalForm":"Giraffa camelopardalis","sourceIdentfier":"6903814","taxonRank":"Species"},{"identifier":54413992,"scientificName":"Giraffa camelopardalis (Linnaeus, 1758)","nameAccordingTo":"Integrated Taxonomic Information System (ITIS)","canonicalForm":"Giraffa camelopardalis","sourceIdentfier":"625036","taxonRank":"Species"},{"identifier":55943657,"scientificName":"Giraffa camelopardalis (Linnaeus, 1758)","nameAccordingTo":"Integrated Taxonomic Information System (ITIS)","canonicalForm":"Giraffa camelopardalis","sourceIdentfier":"625036","taxonRank":"Species"}],"dataObjects":[]}

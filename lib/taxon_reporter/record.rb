@@ -3,11 +3,11 @@ require 'set'
 module TaxonReporter
   class Record
     attr_reader :field
-    attr_reader :value
+    attr_reader :values
     
-    def initialize(field, value)
+    def initialize(field, values)
       @field = field
-      @value = value
+      @values = values
     end
   end
 end

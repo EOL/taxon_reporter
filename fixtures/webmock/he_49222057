@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "85e5b78633e74033c5205089096e8fac"
+X-Request-Id: 57ece40e3e05e4568a59a67d9a8531ed
+X-Runtime: 0.224632
+X-Content-Digest: 6284e166c37ed32ec68b45af8ce379a1b50d63ed
+X-Rack-Cache: miss, store
+X-Cacheable: YES
+Content-Length: 372
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 01:44:15 GMT
+X-Varnish: 738623732 738595851
+Age: 944
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"sourceIdentifier":"urn:paleodb:tn185971","taxonID":49222057,"parentNameUsageID":49222053,"taxonConceptID":4445998,"scientificName":"Giraffa priscilla Pilgrim 1911","taxonRank":"Species","source":"http://eol.org/pages/4445998/hierarchy_entries/49222057/overview","nameAccordingTo":["Paleobiology Database"],"vernacularNames":[],"synonyms":[],"ancestors":[],"children":[]}

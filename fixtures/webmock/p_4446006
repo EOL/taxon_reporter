@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "175d8b0ac921d18c08239fb75ada948f"
+X-Request-Id: fbc98bf86934e4ab7491fe675aef86dc
+X-Runtime: 0.153449
+X-Content-Digest: 1b878c8e604d3ef45bb0d02d18aa8af6a7165924
+X-Rack-Cache: fresh
+X-Cacheable: YES
+Content-Length: 1167
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 02:10:28 GMT
+X-Varnish: 738674300
+Age: 2527
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"identifier":4446006,"scientificName":"Giraffa camelopardalis giraffa (Schreber, 1784)","richness_score":27.0886,"synonyms":[],"vernacularNames":[],"references":[],"taxonConcepts":[{"identifier":55943663,"scientificName":"Giraffa camelopardalis giraffa (Schreber, 1784)","nameAccordingTo":"Integrated Taxonomic Information System (ITIS)","canonicalForm":"Giraffa camelopardalis giraffa","sourceIdentfier":"898598","taxonRank":"Subspecies"},{"identifier":54413998,"scientificName":"Giraffa camelopardalis giraffa (Schreber, 1784)","nameAccordingTo":"Integrated Taxonomic Information System (ITIS)","canonicalForm":"Giraffa camelopardalis giraffa","sourceIdentfier":"898598","taxonRank":"Subspecies"},{"identifier":51377289,"scientificName":"Giraffa camelopardalis giraffa","nameAccordingTo":"NCBI Taxonomy","canonicalForm":"Giraffa camelopardalis giraffa","sourceIdentfier":"439325","taxonRank":"Subspecies"},{"identifier":41525157,"scientificName":"Giraffa camelopardalis subsp. giraffa von Schreber, 1784","nameAccordingTo":"GBIF Nub Taxonomy","canonicalForm":"Giraffa camelopardalis giraffa","sourceIdentfier":"4262213","taxonRank":"Subspecies"}],"dataObjects":[]}

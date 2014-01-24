@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "8f5bad5e521a7dadaa9ff25ecd6e9d61"
+X-Request-Id: 0253607c4d9036905f86fcb790e2d8a8
+X-Runtime: 0.161632
+X-Content-Digest: a75dc532309ed186bf05857a2eba42b07d9c99df
+X-Rack-Cache: fresh
+X-Cacheable: YES
+Content-Length: 2237
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 02:10:28 GMT
+X-Varnish: 738674293
+Age: 2532
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"identifier":38813,"scientificName":"Giraffa","richness_score":56.7862,"synonyms":[],"vernacularNames":[],"references":[],"taxonConcepts":[{"identifier":52578134,"scientificName":"Giraffa","nameAccordingTo":"Species 2000 & ITIS Catalogue of Life: April 2013","canonicalForm":"Giraffa","sourceIdentfier":"13110862","taxonRank":"Genus"},{"identifier":49481246,"scientificName":"Giraffa Brisson 1762","nameAccordingTo":"Paleobiology Database","canonicalForm":"Giraffa","sourceIdentfier":"urn:paleodb:tn42695","taxonRank":"Genus"},{"identifier":46598317,"scientificName":"Giraffa Br\u00fcnnich, 1771","nameAccordingTo":"Integrated Taxonomic Information System (ITIS)","canonicalForm":"Giraffa","sourceIdentfier":"624948","taxonRank":"Genus"},{"identifier":49222053,"scientificName":"Giraffa Brisson 1762","nameAccordingTo":"Paleobiology Database","canonicalForm":"Giraffa","sourceIdentfier":"urn:paleodb:tn42695","taxonRank":"Genus"},{"identifier":49339384,"scientificName":"Giraffa Brisson 1762","nameAccordingTo":"Paleobiology Database","canonicalForm":"Giraffa","sourceIdentfier":"urn:paleodb:tn42695","taxonRank":"Genus"},{"identifier":41525151,"scientificName":"Giraffa Brisson 1762","nameAccordingTo":"GBIF Nub Taxonomy","canonicalForm":"Giraffa","sourceIdentfier":"2441204","taxonRank":"Genus"},{"identifier":50650187,"scientificName":"Giraffa Brisson 1762","nameAccordingTo":"South African Vertebrates","canonicalForm":"Giraffa","sourceIdentfier":"41076","taxonRank":"Genus"},{"identifier":51377284,"scientificName":"Giraffa","nameAccordingTo":"NCBI Taxonomy","canonicalForm":"Giraffa","sourceIdentfier":"9893","taxonRank":"Genus"},{"identifier":24935172,"scientificName":"Giraffa","nameAccordingTo":"IUCN Red List (Species Assessed for Global Conservation)","canonicalForm":"Giraffa","taxonRank":"Genus"},{"identifier":54413991,"scientificName":"Giraffa Brisson 1762","nameAccordingTo":"Integrated Taxonomic Information System (ITIS)","canonicalForm":"Giraffa","sourceIdentfier":"898184","taxonRank":"Genus"},{"identifier":55943656,"scientificName":"Giraffa Brisson 1762","nameAccordingTo":"Integrated Taxonomic Information System (ITIS)","canonicalForm":"Giraffa","sourceIdentfier":"898184","taxonRank":"Genus"}],"dataObjects":[]}

@@ -76,7 +76,7 @@ Or install it yourself as:
 
 To get a TaxonReporter::Report about a taxon:
 
-    report = TaxonReporter.report("Panthera")
+    report = TaxonReporter.report("Giraffa")
 
 A Report is a set of Taxons.
 Report#fields

@@ -12,10 +12,10 @@ module TaxonReporter
       @id = "#{source}:#{name}"
     end
     
-    def merge_values(current, new_value)
+    def merge_values(current, new_values)
       result = current
       result = Set.new unless result
-      result.add(new_value)
+      result.merge(new_values)
     end
   end
 end

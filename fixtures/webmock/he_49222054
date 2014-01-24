@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "8654b4163760be825bcca151978eef40"
+X-Request-Id: 4f5767e10e692e83a5372a537694ef83
+X-Runtime: 0.108981
+X-Content-Digest: d42fafc272a716e23ff61a248bc4a77e32740772
+X-Rack-Cache: miss, store
+X-Cacheable: YES
+Content-Length: 377
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 01:44:15 GMT
+X-Varnish: 738623727 738595431
+Age: 956
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"sourceIdentifier":"urn:paleodb:tn133600","taxonID":49222054,"parentNameUsageID":49222053,"taxonConceptID":308378,"scientificName":"Giraffa camelopardalis Linnaeus, 1758","taxonRank":"Species","source":"http://eol.org/pages/308378/hierarchy_entries/49222054/overview","nameAccordingTo":["Paleobiology Database"],"vernacularNames":[],"synonyms":[],"ancestors":[],"children":[]}

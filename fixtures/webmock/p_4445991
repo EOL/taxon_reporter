@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "2902087d0876734602b36964e5e26491"
+X-Request-Id: 93d2334e90312bf84107e5e9ec15e11a
+X-Runtime: 0.161485
+X-Content-Digest: 4e6f10cd892f3cd2922ef084a9461dbd513d3bf1
+X-Rack-Cache: fresh
+X-Cacheable: YES
+Content-Length: 887
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 02:10:28 GMT
+X-Varnish: 738674294
+Age: 2520
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"identifier":4445991,"scientificName":"Giraffa sivalensis Falconer and Cautley 1843","richness_score":2.93604,"synonyms":[],"vernacularNames":[],"references":[],"taxonConcepts":[{"identifier":49481250,"scientificName":"Giraffa sivalensis Falconer and Cautley 1843","nameAccordingTo":"Paleobiology Database","canonicalForm":"Giraffa sivalensis","sourceIdentfier":"urn:paleodb:tn185972","taxonRank":"Species"},{"identifier":49339389,"scientificName":"Giraffa sivalensis Falconer and Cautley 1843","nameAccordingTo":"Paleobiology Database","canonicalForm":"Giraffa sivalensis","sourceIdentfier":"urn:paleodb:tn185972","taxonRank":"Species"},{"identifier":49222058,"scientificName":"Giraffa sivalensis Falconer and Cautley 1843","nameAccordingTo":"Paleobiology Database","canonicalForm":"Giraffa sivalensis","sourceIdentfier":"urn:paleodb:tn185972","taxonRank":"Species"}],"dataObjects":[]}

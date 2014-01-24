@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "3bb74ad53a97fc0459f910cd9372b9f5"
+X-Request-Id: f95054e4d8ff18c80bd4fe530f856d3d
+X-Runtime: 0.174438
+X-Content-Digest: aad1f89ab0e7bcd478e4fc5aa82565c4500f32d1
+X-Rack-Cache: fresh
+X-Cacheable: YES
+Content-Length: 984
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 02:10:28 GMT
+X-Varnish: 738674282
+Age: 2521
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"identifier":13828910,"scientificName":"Giraffa camelopardalis thornicrofti Lydekker, 1911","richness_score":26.5345,"synonyms":[],"vernacularNames":[],"references":[],"taxonConcepts":[{"identifier":55943661,"scientificName":"Giraffa camelopardalis thornicrofti Lydekker, 1911","nameAccordingTo":"Integrated Taxonomic Information System (ITIS)","canonicalForm":"Giraffa camelopardalis thornicrofti","sourceIdentfier":"898596","taxonRank":"Subspecies"},{"identifier":54413996,"scientificName":"Giraffa camelopardalis thornicrofti Lydekker, 1911","nameAccordingTo":"Integrated Taxonomic Information System (ITIS)","canonicalForm":"Giraffa camelopardalis thornicrofti","sourceIdentfier":"898596","taxonRank":"Subspecies"},{"identifier":41525155,"scientificName":"Giraffa camelopardalis subsp. thornicrofti Lydekker, 1911","nameAccordingTo":"GBIF Nub Taxonomy","canonicalForm":"Giraffa camelopardalis thornicrofti","sourceIdentfier":"4262211","taxonRank":"Subspecies"}],"dataObjects":[]}

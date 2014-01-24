@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "dc31fcd58ebdb760c25a7687dafa8f60"
+X-Request-Id: e5ed4a1b0020c36f2e1d4762b405add4
+X-Runtime: 0.157062
+X-Content-Digest: 1e3ce6960c98baee40f78f14a8ae9bf371a9485e
+X-Rack-Cache: fresh
+X-Cacheable: YES
+Content-Length: 1211
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 02:10:28 GMT
+X-Varnish: 738674302
+Age: 2525
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"identifier":4446008,"scientificName":"Giraffa camelopardalis tippelskirchi Matschie, 1898","richness_score":56.1042,"synonyms":[],"vernacularNames":[],"references":[],"taxonConcepts":[{"identifier":55943662,"scientificName":"Giraffa camelopardalis tippelskirchi Matschie, 1898","nameAccordingTo":"Integrated Taxonomic Information System (ITIS)","canonicalForm":"Giraffa camelopardalis tippelskirchi","sourceIdentfier":"898597","taxonRank":"Subspecies"},{"identifier":54413997,"scientificName":"Giraffa camelopardalis tippelskirchi Matschie, 1898","nameAccordingTo":"Integrated Taxonomic Information System (ITIS)","canonicalForm":"Giraffa camelopardalis tippelskirchi","sourceIdentfier":"898597","taxonRank":"Subspecies"},{"identifier":51377292,"scientificName":"Giraffa camelopardalis tippelskirchi","nameAccordingTo":"NCBI Taxonomy","canonicalForm":"Giraffa camelopardalis tippelskirchi","sourceIdentfier":"439328","taxonRank":"Subspecies"},{"identifier":41525153,"scientificName":"Giraffa camelopardalis subsp. tippelskirchi Matschie, 1898","nameAccordingTo":"GBIF Nub Taxonomy","canonicalForm":"Giraffa camelopardalis tippelskirchi","sourceIdentfier":"4262209","taxonRank":"Subspecies"}],"dataObjects":[]}

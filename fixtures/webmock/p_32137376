@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=86400, public
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "a81afb7024bb740c17b5520c6668b570"
+X-Request-Id: 8c2bd454efc7aef8e4a05f04db7b31f9
+X-Runtime: 0.158582
+X-Content-Digest: 098ea33abb181243f0b4167568b6a2bc4fe5490b
+X-Rack-Cache: fresh
+X-Cacheable: YES
+Content-Length: 397
+Accept-Ranges: bytes
+Date: Fri, 24 Jan 2014 02:10:28 GMT
+X-Varnish: 738674286
+Age: 2516
+Via: 1.1 varnish
+Connection: keep-alive
+
+{"identifier":32137376,"scientificName":"Giraffa stillei Arambourg 1947","richness_score":2.93604,"synonyms":[],"vernacularNames":[],"references":[],"taxonConcepts":[{"identifier":49481251,"scientificName":"Giraffa stillei Arambourg 1947","nameAccordingTo":"Paleobiology Database","canonicalForm":"Giraffa stillei","sourceIdentfier":"urn:paleodb:tn185973","taxonRank":"Species"}],"dataObjects":[]}
