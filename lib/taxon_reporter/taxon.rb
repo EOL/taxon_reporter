@@ -10,7 +10,7 @@ module TaxonReporter
     end
     
     def fields; @fields.values; end
-    def values(field); @values[field.id]; end
+    def values(field); @values[field.id] if field; end
 
     def add_field(field)
       key = field.id

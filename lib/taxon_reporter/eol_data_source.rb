@@ -22,11 +22,15 @@ module TaxonReporter
     def self.search_url(name); "http://eol.org/api/search/#{URI::escape(name)}.json?exact=1&cache_ttl=86400"; end
     
     def self.taxons_from_id(id)
-      taxon = TaxonReporter::Taxon.new(self.records(id))
-      result = [taxon]
-      children = taxon.values(@@fields['children'])
-      if children
-        children.each {|c| result += taxons_from_id(c)}
+      result = []
+      records = self.records(id)
+      if records.length > 0
+        taxon = TaxonReporter::Taxon.new(self.records(id))
+        result << taxon
+        children = taxon.values(@@fields['children'])
+        if children
+          children.each {|c| result += taxons_from_id(c)}
+        end
       end
       result
     end
@@ -63,15 +67,6 @@ module TaxonReporter
     end
 
     DATA_SOURCE_NAME = "EOL"
-    
-    def self.data(id)
-      result = get_api_results(pages_url(id), PAGES_DATA)
-      if result
-        children = eol_children(filter_hes(result["he_ids"]))
-        result["children"] = children if children.length > 0
-      end
-      result
-    end
 
     BAD_PROVIDERS = ["GBIF Nub Taxonomy"]
 
