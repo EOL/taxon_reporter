@@ -9,20 +9,65 @@ taxon_reporter is a Ruby gem that supports collecting data from a variety of bio
 [![Dependency Status][7]][8]
 
 
-Install
--------
+Installing
+----------
 
-General requirements:
+Add this line to your application's Gemfile:
 
-  - Ruby version 2.0 or higher
-  - MySQL server version 5.1 or higher
-  - Web Server for production (Nginx, or Apache)
+    gem 'taxon_reporter'
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install taxon_reporter
 
 
 Running Tests
 -------------
 
     bundle exec rake
+
+
+Usage
+-----
+
+To get a TaxonReporter::Report about a taxon:
+
+    report = TaxonReporter.report("Giraffa")
+
+TaxonReporter::Report
+
+    Report#fields - Array of TaxonReporter::Fields
+    Report#taxons - Array of TaxonReporter::Taxons
+
+TaxonReporter::Field
+
+    Field#source - String. Should be unique for each data source.
+    Field#name - Name of Field.  Should be unique given a source.
+    Field#id - Unique combination of source and name
+    Field#merge_values - Default method for merging values for this Field.
+
+TaxonReporter::Taxon
+
+    Taxon#new(records=[]) - records should be a list of TaxonReporter::Records.
+    Taxon#add_record(record) - Adds a single TaxonReporter::Record.
+    Taxon#fields - Array of TaxonReporter::Fields associated with this taxon.
+    Taxon#values(field) - Merge of all the values (typically a Set) for the given TaxonReporter::Field
+  
+TaxonReporter::Record
+
+    Record#field - Associated TaxonReporter::Field
+    Record#values - Values (typically a Set)
+
+
+Updating the Gem
+----------------
+
+    gem build taxon_reporter.gemspec
+    gem push taxon_reporter-0.0.1.gem
 
 Also look at [.travis.yml][9] file for more information
 
@@ -48,91 +93,3 @@ further details.
 [11]: https://github.com/dimus
 [12]: http://mbl.edu
 [13]: https://github.com/EOL/taxon_reporter/blob/master/LICENSE
-
-----
-
-
-# TaxonReporter
-
-Supports collecting data from a variety of biodiversity source about a given taxon and its descendants
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'taxon_reporter'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install taxon_reporter
-
-## Usage
-
-### Required for TaxonEval
-
-To get a TaxonReporter::Report about a taxon:
-
-    report = TaxonReporter.report("Giraffa")
-
-A Report is a set of Taxons.
-Report#fields
-Report#values(field)
-
-A Taxon is a set of Records.
-Taxon#fields
-Taxon#values(field)
-
-A Record is a Field and a value (String).
-
-A Field is a DataSource and a name (String)
-
-A DataSource is a name (String), and a url (String)
-DataSource#records(name)
-
-### Useful Additions
-
-To get the available report fields ("EOL:richness", source => "EOL", name => "richness"):
-
-    fields = TaxonReporter.fields
-
-To get a set of default data sources:
-
-    data_sources = TaxonReporter.data_sources
-
-To create a report from a different set of data sources:
-
-    TaxonReporter.add_data_source(data_source)
-
-To remove a data source:
-
-    TaxonReporter.remove_data_source(data_source)
-
-To get the full record (TaxonReporter.Record) for a taxon in a report:
-
-    record = report[name]
-
-To get the value for a field (String) from a record:
-
-    value = record["EOL:scientificName"]
-
-To get the String form of a TaxonReporter.Field:
-
-    s = field.to_s
-
-To get all available fields (Array of TaxonReporter.Fields) for a record:
-
-    fields = record.fields
-
-## Planned Sources
-
-EOL,
-GBIF,
-Wikipedia,
-Index Fungorum,
-MycoBank,
-Mushroom Observer,
-MycoPortal

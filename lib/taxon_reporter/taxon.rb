@@ -11,20 +11,20 @@ module TaxonReporter
     
     def fields; @fields.values; end
     def values(field); @values[field.id] if field; end
-
-    def add_field(field)
-      key = field.id
-      @fields[key] = field unless @fields.member?(key)
+    
+    def add_record(record)
+      @records.push(record)
+      add_values(record.field, record.values)
     end
     
     def add_values(field, values)
       add_field(field)
       @values[field.id] = field.merge_values(@values[field.id], values)
     end
-    
-    def add_record(record)
-      @records.push(record)
-      add_values(record.field, record.values)
+
+    def add_field(field)
+      key = field.id
+      @fields[key] = field unless @fields.member?(key)
     end
   end
 end
