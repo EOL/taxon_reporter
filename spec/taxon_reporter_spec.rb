@@ -17,4 +17,12 @@ describe TaxonReporter do
       expect(report.taxons.length).to be > 1
     end
   end
+  
+  describe '.report with unrecognized name' do
+    it 'has no taxons' do
+      my_name_stubs
+      empty_report = TaxonReporter.report('My Name')
+      expect(empty_report.taxons).to eq []
+    end
+  end
 end

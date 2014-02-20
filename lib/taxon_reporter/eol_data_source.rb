@@ -9,8 +9,10 @@ module TaxonReporter
     def self.taxons_from_name(name)
       result = []
       ids = self.get_eol_ids_from_name(name)
-      ids.each do |id|
-        result += self.taxons_from_id(id)
+      if ids
+        ids.each do |id|
+          result += self.taxons_from_id(id)
+        end
       end
       result
     end

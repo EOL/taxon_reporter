@@ -36,3 +36,7 @@ def giraffa_stubs
     55943660, 55943661, 55943662, 55943663, 
   ].each {|he_id| he_stub(he_id)}
 end
+
+def my_name_stubs
+  file_stub('http://eol.org/api/search/My%20Name.json?cache_ttl=86400&exact=1', 's_My_Name')
+end
