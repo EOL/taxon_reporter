@@ -16,6 +16,10 @@ describe TaxonReporter do
       expect(report.taxons).to be_kind_of Array
       expect(report.taxons.length).to be > 1
     end
+    
+    it 'has eol_id' do
+      expect(report.taxons[0].values("EOL:eol_id").first).to be_kind_of Fixnum
+    end
   end
   
   describe '.report with unrecognized name' do
