@@ -2,6 +2,8 @@ require 'set'
 
 module TaxonReporter
   class Taxon
+    attr_reader :records
+    
     def initialize(records=[])
       @records = []
       @fields = {}
@@ -10,7 +12,13 @@ module TaxonReporter
     end
     
     def fields; @fields.values; end
-    def values(field); @values[field.id] if field; end
+    def values(field)
+      if field.is_a?(TaxonReporter::Field)
+        @values[field.id]
+      elsif field.is_a?(String)
+        @values[field]
+      end
+    end
     
     def add_record(record)
       @records.push(record)
