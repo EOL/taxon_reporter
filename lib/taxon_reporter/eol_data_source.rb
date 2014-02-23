@@ -3,10 +3,11 @@ require 'set'
 module TaxonReporter
 
   class EolDataSource < DataSource
+    def self.has_classification?; true; end
     
     @@fields = {}
     
-    def self.taxons_from_name(name)
+    def self.find_taxa(name)
       result = []
       ids = self.get_eol_ids_from_name(name)
       if ids
@@ -25,9 +26,9 @@ module TaxonReporter
     
     def self.taxons_from_id(id)
       result = []
-      records = self.records(id)
+      records = self.records(id, PAGES_CLASSIFICATION_DATA)
       if records.length > 0
-        taxon = TaxonReporter::Taxon.new(self.records(id))
+        taxon = TaxonReporter::Taxon.new(records)
         result << taxon
         children = taxon.values(@@fields['children'])
         if children
@@ -36,10 +37,18 @@ module TaxonReporter
       end
       result
     end
-    
-    def self.records(id)
+
+    PAGES_CLASSIFICATION_DATA = {
+      "eol_id" => ["identifier"],
+      "richness" => ["richness_score"],
+      "ranks" => ["taxonConcepts", "taxonRank"],
+      "scientificName" => ["scientificName"],
+      "he_ids" => ["taxonConcepts", ["identifier", "nameAccordingTo"]]
+    }
+
+    def self.records(id, fields)
       result = []
-      add_children(get_api_results(pages_url(id), PAGES_DATA)).each do |k, v|
+      add_children(get_api_results(pages_url(id), fields)).each do |k, v|
         result.push(TaxonReporter::Record.new(add_field(k), v))
       end
       result
@@ -55,14 +64,6 @@ module TaxonReporter
       "http://eol.org/api/pages/#{id}.json?images=0&videos=0&sounds=0&maps=0&text=0&iucn=false&details=false&common_names=false&synonyms=false&references=false&cache_ttl=86400"
     end
 
-    PAGES_DATA = {
-      "eol_id" => ["identifier"],
-      "richness" => ["richness_score"],
-      "ranks" => ["taxonConcepts", "taxonRank"],
-      "scientificName" => ["scientificName"],
-      "he_ids" => ["taxonConcepts", ["identifier", "nameAccordingTo"]]
-    }
-    
     def self.add_field(field_name)
       @@fields[field_name] = TaxonReporter::Field.new(DATA_SOURCE_NAME, field_name) unless @@fields.member?(field_name)
       @@fields[field_name]
@@ -97,5 +98,18 @@ module TaxonReporter
     end
 
     def self.hierarchy_entries_url(id); "http://eol.org/api/hierarchy_entries/#{id}.json?common_names=false&synonyms=false&cache_ttl=86400"; end
+
+    def self.add_data(taxon)
+      ids = taxon.values("#{DATA_SOURCE_NAME}:eol_id")
+      ids.each do |id|
+        self.records(id, PAGES_REPORT_DATA).each {|r| taxon.add_record(r)}
+      end
+    end
+
+    PAGES_REPORT_DATA = {
+      "richness" => ["richness_score"],
+      "ranks" => ["taxonConcepts", "taxonRank"],
+    }
+    
   end
 end

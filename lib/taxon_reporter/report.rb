@@ -8,17 +8,24 @@ module TaxonReporter
     def fields; @fields; end
     
     def initialize(name)
+      @name = name
       @taxons = []
       @fields = []
-      TaxonReporter::Report.load_data(name).each {|t| add_taxon(t)}
+      # TaxonReporter::Report.load_data(name).each {|t| add_taxon(t)}
     end
     
-    def self.load_data(name)
-      result = []
+    def load_taxa
       @@data_sources.each do |ds|
-        result += ds.taxons_from_name(name)
+        if ds.has_classification?
+          @taxons += ds.find_taxa(@name)
+        end
       end
-      result
+    end
+    
+    def load_data(data_source)
+      @taxons.each do |t|
+        data_source.add_data(t)
+      end
     end
     
     def add_taxon(taxon)

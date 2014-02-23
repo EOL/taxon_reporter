@@ -13,11 +13,14 @@ describe TaxonReporter do
     end
     
     it 'has taxons' do
+      report.load_taxa
       expect(report.taxons).to be_kind_of Array
       expect(report.taxons.length).to be > 1
     end
     
     it 'has eol_id' do
+      report.load_taxa
+      report.load_data(TaxonReporter::EolDataSource)
       expect(report.taxons[0].values("EOL:eol_id").first).to be_kind_of Fixnum
     end
   end

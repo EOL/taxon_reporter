@@ -3,6 +3,8 @@ require 'httparty'
 
 module TaxonReporter
   class DataSource
+    def self.has_classification?; false; end
+    
     def self.get_api_result(url, path); process_response(get_api_response(url), path); end
   
     def self.get_api_results(url, spec)
