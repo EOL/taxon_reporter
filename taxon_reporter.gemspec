@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["nathan@collectivesource.com"]
   spec.description   = %q{Supports collecting data from a variety of biodiversity source about a given taxon and its descendants}
   spec.summary       = %q{Uses a set of data sources to first get a set of taxon names and ids, and then asks each source for data about those taxa}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/EOL/taxon_reporter"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

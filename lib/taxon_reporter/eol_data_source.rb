@@ -7,6 +7,8 @@ module TaxonReporter
     
     @@fields = {}
     
+    def self.fields; @@fields.values; end
+    
     def self.find_taxa(name)
       result = []
       ids = self.get_eol_ids_from_name(name)
